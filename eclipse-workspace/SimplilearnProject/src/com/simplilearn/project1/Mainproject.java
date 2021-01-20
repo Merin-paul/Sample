@@ -3,7 +3,7 @@ package com.simplilearn.project1;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class CompanyLockers {
+public class Mainproject {
 	int x;
 
 	void mainMenu() {
@@ -132,7 +132,7 @@ public class CompanyLockers {
 	}
 
 	public static void main(String[] args) throws IOException {
-		CompanyLockers disp = new CompanyLockers();
+		Mainproject disp = new Mainproject();
 		disp.mainMenu();
 		disp.mainMenuDisplay();
 		disp.getInput();
